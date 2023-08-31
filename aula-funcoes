@@ -1,0 +1,124 @@
+/*
+*Bruno Wesley
+*/
+
+//A) Interpretação de código
+
+//1)
+//a)
+
+//10
+//50
+
+//b)A funcão seria executada porém, não seria impressa no console
+
+//2)
+
+//a) função retorna true caso o usuario digite "cenoura" na string fornecida e false caso o usuario não digite "cenoura"
+//b)
+//true
+//true
+//false
+
+//B) Escrita de código
+
+//1)
+/*
+function informacoesSobreMim() {
+console.log("Eu sou Bruno, tenho 19 anos, moro em São Leopoldo, sou estudante");
+*/
+
+//2)
+
+//a)
+/*
+function somaNumeros (num1, num2) {
+return num1 + num2;
+}
+//b)
+/*
+function boleanNumero (num1, num2) {
+    return num1 >= num2;
+}
+
+console.log(boleanNumero(8, 4));
+*/
+
+//c)
+/*
+function boleanNumero (numero) {
+    const par = numero % 2
+    return par === 0
+}
+
+console.log(boleanNumero(4));
+*/
+
+//d)
+/*
+function funcaoMensagem (mensagem) {
+    const tamanho = mensagem.length;
+    const maiusculas = mensagem.toUpperCase();
+
+console.log(tamanho);
+console.log(maiusculas);
+}
+
+funcaoMensagem("Olá mundo!");
+*/
+
+//3)
+/*
+function soma (a, b){
+    return a + b;
+}
+function subtração (a, b){
+    return a - b;
+}
+function multiplicação (a, b){
+    return a * b;
+}
+function divisao (a, b){
+    return a / b;
+}
+
+let a = prompt("Insira o primeiro número: ");
+let b = prompt("Insira o segundo número: ");
+
+console.log("Números inseridos", a, b);
+console.log("Soma:", a + b,"Diferença:", a - b, "Multiplicação:", a * b,"Divisão:", a / b);
+*/
+
+//Desafios
+
+//1)
+//a)
+/*
+const imprimeConsole = parametro =>{
+    console.log(parametro);
+};
+imprimeConsole("Olá mundo!");
+*/
+/*
+//b)
+const imprimirNoConsole = parametro => {
+    console.log(parametro);
+  };
+  
+const somarImprimir = (num1, num2) => {
+    const resultado = num1 + num2;
+    imprimirNoConsole(resultado);
+  };
+  
+  somarImprimir(5, 7);
+  */
+
+  //2)
+
+function catetos (a, b){
+    return a * a + b * b
+}
+const a = 6
+const b = 8
+
+console.log(catetos(a, b));
